@@ -1,1 +1,10 @@
-
+s = [
+    ["-", "-", "-"],
+    ["-", "-", "-"],
+    ["-", "-", "-"]    
+]
+for i in range(9):
+    if  i % 2 == 0:
+        x, y = map(int, input().split())
+    else: 
+        x, y = map(int, input().split())
